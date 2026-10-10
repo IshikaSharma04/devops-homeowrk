@@ -709,14 +709,14 @@ performed for this project:
 The backend test suite passed, Docker Compose configuration was valid, and
 both backend and frontend images were built successfully.
 
-![Backend tests and Docker image builds](assets/local-tests-and-docker.svg)
+![Backend tests and Docker image builds](assets/local-tests-and-docker.png)
 
 ### Kubernetes and Helm tooling
 
 The local Kubernetes, kind, and Helm client versions used for the project are
 shown below. The Helm chart also passed `helm lint`.
 
-![Kubernetes and Helm validation](assets/kubernetes-helm-tools.svg)
+![Kubernetes and Helm validation](assets/kubernetes-helm-tools.png)
 
 ### Terraform validation
 
@@ -724,11 +724,11 @@ Terraform formatting, provider initialization without a backend, and
 configuration validation completed successfully. AWS resources were not
 applied during this local validation run.
 
-![Terraform formatting, initialization, and validation](assets/terraform-validation.svg)
+![Terraform formatting, initialization, and validation](assets/terraform-validation.png)
 
 ### Application setup
 
-![Application setup](assets/application-setup.svg)
+![Application setup](assets/application-setup.png)
 
 The local Docker Compose stack was opened in a browser after the backend and
 frontend started successfully. The screenshot below is the actual TaskBoard
@@ -738,35 +738,35 @@ frontend served by this project at `http://localhost:3000`.
 
 ### Kubernetes deployment
 
-![Kubernetes deployment](assets/kubernetes-deployment.svg)
+![Kubernetes deployment](assets/kubernetes-deployment.png)
 
 ### Helm deployment
 
-![Helm deployment](assets/helm-deployment.svg)
+![Helm deployment](assets/helm-deployment.png)
 
 ### CI/CD pipeline
 
-![GitHub Actions CI/CD pipeline](assets/ci-cd-pipeline.svg)
+![GitHub Actions CI/CD pipeline](assets/ci-cd-pipeline.png)
 
 ### DevSecOps scanning
 
-![DevSecOps security scan](assets/devsecops-scanning.svg)
+![DevSecOps security scan](assets/devsecops-scanning.png)
 
 ### Terraform infrastructure
 
-![Terraform infrastructure](assets/terraform-infrastructure.svg)
+![Terraform infrastructure](assets/terraform-infrastructure.png)
 
 ### Monitoring dashboard
 
-![Monitoring configuration and workflow](assets/monitoring-dashboard.svg)
+![Monitoring configuration and workflow](assets/monitoring-dashboard.png)
 
 ### GitOps workflow
 
-![GitOps workflow](assets/gitops-workflow.svg)
+![GitOps workflow](assets/gitops-workflow.png)
 
 ### Troubleshooting
 
-![Troubleshooting broken image deployment](assets/troubleshooting.svg)
+![Troubleshooting broken image deployment](assets/troubleshooting.png)
 
 ## Cleanup
 
